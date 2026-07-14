@@ -31,14 +31,36 @@
     background-color: #ffffff;
 }
 
+.vjs-chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--vjs-chart-border-color);
+    padding-right: 1.5rem;
+}
+
 .vjs-chart-example-title {
     font-weight: 600;
     text-align: left;
     font-size: 1.125rem;
     padding: 1.25rem 1.5rem;
-    background-color: #ffffff;
     color: var(--vjs-chart-text-main);
-    border-bottom: 1px solid var(--vjs-chart-border-color);
+    border-bottom: none;
+}
+
+.show-code-btn {
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+}
+
+.show-code-btn:hover {
+    background-color: #e5e5e5;
 }
 
 .vjs-chart-example {
